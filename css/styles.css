@@ -1,0 +1,270 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff;
+    font-family: 'NanumSquare_ac';
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+
+.header {
+    margin: 0px;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+
+    background: url(../img/consulting2.jpg);
+    filter: drop-shadow(0px 4px 4px
+    rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    background-position: center;
+
+
+} 
+
+#kbioLogo {
+    margin: auto;
+    display: block;
+    width: 400px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+/* Name Bar */
+
+.nameBar {
+    margin-top: 250px;
+    width: 600px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 1px 4px 17px rgba(0, 0, 0, 0.16),
+    35px -2px 5px;
+    color: #ffffff;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 90px;
+}
+
+/* Profile Image */
+
+.profileBox {
+    margin: 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 70%;
+    overflow: hidden;
+
+    filter: drop-shadow(0px 4px 4px
+    rgba(0, 0, 0, 0.25));
+    position: absolute;
+    top: 260px;
+    margin-left: 12px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Profile Bar Content */
+
+.profile-text {
+    margin: 0px;
+    width: 300px;
+    text-align: left;
+    margin-left: 166px;
+    position: absolute;
+    top: 270px;
+}
+
+.profile-text h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    color: #424242;
+    display: flex;
+}
+
+.profile-text h2 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: #424242;
+    position: absolute;
+    top: 55px;
+}
+
+.content-box {
+    width: 590px;
+    height: 450px;
+    background-color: #ffffff;
+    margin-top: 30px;
+
+    box-shadow: 1px 4px 17px rgba(0, 0, 0, 0.16),
+    35px -2px 5px;
+    color: #ffffff;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 20px;
+}
+
+/* content box */
+.content-box {
+    margin-bottom: 70px;
+    padding: 40px;
+    align-items: center;
+}
+
+.content-txt {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-txt .h1 {
+    font-size: 20px;
+    color: #424242;
+    line-height: 27px;
+    text-align: left;
+}
+
+.content-txt p {
+    font-size: 15px;
+    color: #424242;
+    line-height: 24px;
+    text-align: left;
+}
+
+.news-imgBar {
+    margin: 0;
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+    box-shadow: 1px 4px 17px rgba(0, 0, 0, 0.16),
+    35px -2px 5px;
+}
+
+.news-img {
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Button */
+.content-box .btn {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 500px;
+    height: 36px;
+    background-color: #173E79;
+    color: white;
+    font-family: 'NanumSquare_ac';
+    font-size: 14px;
+
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 36px;
+    background-color: #173E79;
+    color: white;
+    font-family: 'NanumSquare_ac';
+    font-size: 14px;
+
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+/* 보도 내용 확인하기 */
+.content-box .third-title {
+    width: 300px;
+    text-align: center;
+    font-size: 22px;
+    color: #4E5597;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.first-linkBox {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.first-linkBox h2 {
+    font-size: 17px;
+    color: #666666;
+}
+
+.second-linkBox {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.second-linkBox h2 {
+    font-size: 17px;
+    color: #666666;
+}
+
+/* KBIO 홈페이지 박스 */
+.content-box2 {
+    width: 590px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: 30px;
+
+    box-shadow: 1px 4px 17px rgba(0, 0, 0, 0.16),
+    35px -2px 5px;
+    color: #ffffff;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+
+    border-radius: 20px;
+}
+
+.web-click {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.content-box2 h1 {
+    font-size: 17px;
+    color: #666666;
+    text-align: center;
+}
